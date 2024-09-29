@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Demo RabbitMQ
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: MinhNN
+    password: MinhNN
+    queue: rabbit_queue
+    json-queue: rabbit_json_queue
+    exchange: rabbit_exchange
+    routing-key: rabbit_routing_key
+    routing-json-key: rabbit_routing_json_key
+server:
+  port: 8090
